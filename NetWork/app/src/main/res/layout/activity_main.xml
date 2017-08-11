@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="com.network.MainActivity">
+
+    <Button
+        android:id="@+id/btn_asy_get"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="异步Get请求"/>
+
+    <Button
+        android:id="@+id/btn_asy_post"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="异步POST请求"/>
+
+
+    <Button
+        android:id="@+id/btn_asy_upload"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="异步上传文件"/>
+
+    <Button
+        android:id="@+id/btn_asy_download"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="异步下载文件"/>
+
+    <Button
+        android:id="@+id/btn_asy_mul"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="异步上传Multipart文件"/>
+
+
+    <Button
+        android:id="@+id/btn_asy_final"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="封装OkHttpFinal"/>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="测试结果"
+        android:padding="5dp"/>
+
+</LinearLayout>
